@@ -1,0 +1,239 @@
+* {
+  margin: 5px;
+  padding: 0px;
+}
+
+header h1 {
+  color: white;
+  text-align: center;
+  font-family: "Castoro", serif;
+  font-size: 45px;
+}
+
+header .imagen {
+  height: 150px;
+  background-image: url(./paginas/img/imagenrestaurante.jpg);
+  background-position: bottom;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+header nav {
+  background-color: brown;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+}
+
+header li {
+  display: inline-block;
+  border: solid 2px red;
+  margin-top: 2px;
+  margin-left: 180px;
+  padding: 8px 3px;
+  border-radius: 8px;
+  -webkit-transition: all;
+  transition: all;
+}
+
+header li:hover {
+  background-color: lightcoral;
+}
+
+body article p {
+  font-family: "Roboto", sans-serif;
+  color: black;
+}
+
+body a {
+  color: crimson;
+}
+
+.menu {
+  width: 80px;
+  margin: 2px;
+}
+
+.menu .menu_ {
+  margin: 4em 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+}
+
+.menu .menu-- {
+  padding: 6em;
+}
+
+.menu .quienes_ {
+  margin: 4em 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-animation-name: aparecer;
+          animation-name: aparecer;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-transition: all 2s;
+  transition: all 2s;
+  -webkit-transform: translate(50px, 60px);
+          transform: translate(50px, 60px);
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+}
+
+.menu .quienes-- {
+  padding: 6em;
+}
+
+.menu .delivery_ {
+  margin: 4em 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+}
+
+.menu .delivery-- {
+  padding: 6em;
+}
+
+.menu .eventos_ {
+  margin: 4em 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: all 2s;
+  transition: all 2s;
+  -webkit-transform: translate(50px, 60px);
+          transform: translate(50px, 60px);
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+}
+
+.menu .eventos-- {
+  padding: 6em;
+}
+
+h2 {
+  color: crimson;
+  font-family: "Playfair Display", serif;
+  font-size: 25px;
+  text-align: left;
+  text-decoration: underline;
+}
+
+.quienes {
+  color: darkblue;
+}
+
+.artquienes {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+}
+
+.bodas {
+  color: sienna;
+  font-weight: bold;
+}
+
+.cumple {
+  color: tomato;
+  font-weight: bold;
+}
+
+.corp {
+  color: chocolate;
+  font-weight: bold;
+}
+
+table {
+  background-color: #68bb94;
+}
+
+table td li {
+  color: olive;
+}
+
+table td ul {
+  list-style: none;
+}
+
+table th {
+  color: darkgoldenrod;
+}
+
+aside {
+  font-style: italic;
+  height: 20px;
+}
+
+footer {
+  font-style: italic;
+  font-size: 18px;
+  text-align: left;
+  height: 110px;
+}
+
+.header__h1--color {
+  color: #00ff73;
+}
+
+.body--background {
+  background: -webkit-gradient(linear, left top, left bottom, from(#bed45e), to(#5ed45e));
+  background: linear-gradient(to bottom, #bed45e, #5ed45e);
+}
+
+.footer--backgound {
+  background: -webkit-gradient(linear, left bottom, left top, from(brown), to(#a5882a));
+  background: linear-gradient(to top, brown, #a5882a);
+}
+
+.nav--height {
+  height: 50px;
+}
+
+.aside--text-align {
+  text-align: right;
+}
+
+@media only screen and (max-width: 400px) {
+  body {
+    background-color: #5ed45e;
+  }
+}
+
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  body {
+    background-color: #5ed45e;
+  }
+}
+
+@media only screen and (min-width: 961px) {
+  body {
+    background-color: #5ed45e;
+  }
+}
+/*# sourceMappingURL=style.css.map */

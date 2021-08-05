@@ -1,0 +1,196 @@
+$crimson: crimson;
+$fweight: bold;
+
+
+* {
+  margin: 5px;
+  padding: 0px;
+}
+
+header {
+  h1 {
+    color: white;
+    text-align: center;
+    font-family: "Castoro", serif;
+    font-size: 45px;
+  }
+  .imagen {
+    height: 150px;
+    background-image: url(./paginas/img/imagenrestaurante.jpg);
+    background-position: bottom;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  nav {
+    background-color: brown;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  li {
+    display: inline-block;
+    border: solid 2px red;
+    margin-top: 2px;
+    margin-left: 180px;
+    padding: 8px 3px;
+    border-radius: 8px;
+    transition: all;
+  }
+  li:hover {
+    background-color: lightcoral;
+  }
+}
+
+$animal: gato;
+
+body {
+  article p {
+    font-family: "Roboto", sans-serif;
+    @if $animal == gato {
+      color: black;
+    }
+  }
+
+  a {
+    color: $crimson;
+  }
+}
+.menu {
+  width: 80px;
+  margin: 2px;
+
+  .menu_ {
+    margin: 4em 0;
+    align-items: center;
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .menu-- {
+    padding: 6em;
+  }
+  .quienes_ {
+    margin: 4em 0;
+    align-items: center;
+    animation-name: aparecer;
+    animation-duration: 2s;
+    transition: all 2s;
+    transform: translate(50px, 60px);
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+
+
+  .quienes-- {
+    padding: 6em;
+  }
+  .delivery_ {
+    margin: 4em 0;
+    align-items: center;
+    display: grid;
+    grid-template-columns: auto auto ;
+  }
+  .delivery-- {
+    padding: 6em;
+  }
+  .eventos_ {
+    margin: 4em 0;
+    align-items: center;
+    transition: all 2s;
+    transform: translate(50px, 60px);
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .eventos-- {
+    padding: 6em;
+  }
+}
+h2 {
+  color: $crimson;
+  font-family: "Playfair Display", serif;
+  font-size: 25px;
+  text-align: left;
+  text-decoration: underline;
+}
+.quienes {
+  color: darkblue;
+}
+.artquienes {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.bodas {
+  color: sienna;
+  font-weight: $fweight;
+}
+.cumple {
+  color: tomato;
+  font-weight: $fweight;
+}
+.corp {
+  color: chocolate;
+  font-weight: $fweight;
+}
+
+table {
+  background-color: rgb(104, 187, 148);
+  td {
+    li {
+      color: olive;
+    }
+    ul {
+      list-style: none;
+    }
+  }
+  th {
+    color: darkgoldenrod;
+  }
+}
+
+aside {
+  font-style: italic;
+  height: 20px
+}
+
+footer {
+  font-style: italic;
+  font-size: 18px;
+  text-align: left;
+  height: 110px;
+}
+
+.header__h1--color {
+  color: rgb(0, 255, 115);
+}
+
+.body--background {
+  background: linear-gradient(to bottom, rgb(190, 212, 94), rgb(94, 212, 94));
+}
+
+.footer--backgound {
+  background: linear-gradient(to top, brown, rgb(165, 136, 42));
+}
+.nav--height {
+  height: 50px;
+}
+.aside--text-align{
+  text-align: right;
+}
+@media only screen and (max-width: 400px) {
+  body {
+    background-color: rgb(94, 212, 94);
+  }
+}
+
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  body {
+    background-color: rgb(94, 212, 94);
+  }
+}
+
+@media only screen and (min-width: 961px) {
+  body {
+    background-color: rgb(94, 212, 94);
+  }
+}
