@@ -46,7 +46,7 @@ header {
 $animal: gato;
 
 body {
-  article p {
+ p {
     font-family: "Roboto", sans-serif;
     @if $animal == gato {
       color: black;
