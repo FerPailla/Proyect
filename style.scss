@@ -57,55 +57,14 @@ body {
     color: $crimson;
   }
 }
-.menu {
-  width: 80px;
-  margin: 2px;
 
-  .menu_ {
+
+.menu_ {
     margin: 4em 0;
     align-items: center;
     display: grid;
     grid-template-columns: auto auto;
   }
-  .menu-- {
-    padding: 6em;
-  }
-  .quienes_ {
-    margin: 4em 0;
-    align-items: center;
-    animation-name: aparecer;
-    animation-duration: 2s;
-    transition: all 2s;
-    transform: translate(50px, 60px);
-    display: grid;
-    grid-template-columns: auto auto;
-  }
-
-
-  .quienes-- {
-    padding: 6em;
-  }
-  .delivery_ {
-    margin: 4em 0;
-    align-items: center;
-    display: grid;
-    grid-template-columns: auto auto ;
-  }
-  .delivery-- {
-    padding: 6em;
-  }
-  .eventos_ {
-    margin: 4em 0;
-    align-items: center;
-    transition: all 2s;
-    transform: translate(50px, 60px);
-    display: grid;
-    grid-template-columns: auto auto;
-  }
-  .eventos-- {
-    padding: 6em;
-  }
-}
 h2 {
   color: $crimson;
   font-family: "Playfair Display", serif;
