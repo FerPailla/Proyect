@@ -25,29 +25,38 @@ header .imagen {
           align-items: flex-end;
 }
 
-header nav {
+/*nav {
+    background-color:brown;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  li {
+    display: inline-block;
+    background-position: center;
+    border: solid 2px red;
+    margin-top: 2px;
+    margin-left: 10px;
+    padding: 3px 3px;
+    border-radius: 8px;
+    transition: all;
+  }
+  li:hover {
+    background-color: lightcoral;
+  }
+  .navbar{
+  background-color: brown;
+}
+*/
+.navbar {
   background-color: brown;
 }
 
-header a {
-  text-decoration: none;
-  color: white;
+li:hover a:hover {
+  background-color: red;
 }
 
-header li {
-  display: inline-block;
-  border: solid 2px red;
-  margin-top: 2px;
-  margin-left: 180px;
-  padding: 8px 3px;
-  border-radius: 8px;
-  -webkit-transition: all;
-  transition: all;
-}
-
-header li:hover {
-  background-color: lightcoral;
-}
 
 body p {
   font-family: "Roboto", sans-serif;
