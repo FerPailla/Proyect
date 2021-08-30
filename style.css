@@ -1,5 +1,5 @@
 * {
-  margin: 5px;
+  margin: 3px;
   padding: 0px;
 }
 
@@ -25,42 +25,13 @@ header .imagen {
           align-items: flex-end;
 }
 
-/*nav {
-    background-color:brown;
-  }
-  a {
-    text-decoration: none;
-    color: white;
-  }
-  li {
-    display: inline-block;
-    background-position: center;
-    border: solid 2px red;
-    margin-top: 2px;
-    margin-left: 10px;
-    padding: 3px 3px;
-    border-radius: 8px;
-    transition: all;
-  }
-  li:hover {
-    background-color: lightcoral;
-  }
-  .navbar{
-  background-color: brown;
-}
-*/
 .navbar {
   background-color: brown;
 }
 
-li:hover a:hover {
-  background-color: red;
-}
-
-
 body p {
   font-family: "Roboto", sans-serif;
-  font-size: 2rem;
+  font-size: 1rem;
   color: black;
 }
 
@@ -96,6 +67,7 @@ h2 {
   display: grid;
   -ms-grid-columns: auto auto;
       grid-template-columns: auto auto;
+  font-size: 2rem;
 }
 
 .bodas {
@@ -129,16 +101,22 @@ table th {
   color: darkgoldenrod;
 }
 
-aside {
-  font-style: italic;
-  height: 20px;
+footer {
+  /*font-style: italic;
+  font-size: 18px;
+  text-align: center;
+  display: grid;
+  height: 110px;*/
+  font-size: 1rem;
+  margin: 0px;
 }
 
-footer {
-  font-style: italic;
-  font-size: 18px;
-  text-align: left;
-  height: 110px;
+.footers {
+  font-size: 1rem;
+}
+
+.lorem {
+  font-size: 2rem;
 }
 
 .header__h1--color {
@@ -151,8 +129,7 @@ footer {
 }
 
 .footer--backgound {
-  background: -webkit-gradient(linear, left bottom, left top, from(brown), to(#a5882a));
-  background: linear-gradient(to top, brown, #a5882a);
+  background: linear-gradient(to top, brown, rgb(165, 136, 42));
 }
 
 .nav--height {

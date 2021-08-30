@@ -3,7 +3,7 @@ $fweight: bold;
 
 
 * {
-  margin: 5px;
+  margin: 3px;
   padding: 0px;
 }
 
@@ -24,30 +24,6 @@ header {
   }
 
 }
-  /*nav {
-    background-color:brown;
-  }
-  a {
-    text-decoration: none;
-    color: white;
-  }
-  li {
-    display: inline-block;
-    background-position: center;
-    border: solid 2px red;
-    margin-top: 2px;
-    margin-left: 10px;
-    padding: 3px 3px;
-    border-radius: 8px;
-    transition: all;
-  }
-  li:hover {
-    background-color: lightcoral;
-  }
-  .navbar{
-  background-color: brown;
-}
-*/
 .navbar{
   background-color: brown;
 }
@@ -55,9 +31,10 @@ header {
 $animal: gato;
 
 body {
+  background: linear-gradient(to bottom, rgb(135, 236, 126), rgb(216, 201, 71));
  p {
     font-family: "Roboto", sans-serif;
-    font-size: 2rem;
+    font-size: 1rem;
     @if $animal == gato {
       color: black;
     }
@@ -88,6 +65,7 @@ h2 {
 .artquienes {
   display: grid;
   grid-template-columns: auto auto;
+  font-size: 2rem;
 }
 .bodas {
   color: sienna;
@@ -117,16 +95,21 @@ table {
   }
 }
 
-aside {
-  font-style: italic;
-  height: 20px
+footer {
+  /*font-style: italic;
+  font-size: 18px;
+  text-align: center;
+  display: grid;
+  height: 110px;*/
+  font-size: 1rem; 
 }
 
-footer {
-  font-style: italic;
-  font-size: 18px;
-  text-align: left;
-  height: 110px;
+.footers{
+  font-size: 1rem;
+}
+
+.lorem{
+  font-size: 2rem;
 }
 
 .header__h1--color {
@@ -134,11 +117,10 @@ footer {
 }
 
 .body--background {
-  background: linear-gradient(to bottom, rgb(190, 212, 94), rgb(94, 212, 94));
-}
+  
 
 .footer--backgound {
-  background: linear-gradient(to top, brown, rgb(165, 136, 42));
+ background: linear-gradient(to top, brown, rgb(165, 136, 42));
 }
 .nav--height {
   height: 50px;
