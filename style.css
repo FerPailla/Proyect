@@ -29,6 +29,11 @@ header .imagen {
   background-color: brown;
 }
 
+body {
+  background: -webkit-gradient(linear, left top, left bottom, from(#87ec7e), to(#d8c947));
+  background: linear-gradient(to bottom, #87ec7e, #d8c947);
+}
+
 body p {
   font-family: "Roboto", sans-serif;
   font-size: 1rem;
@@ -101,19 +106,6 @@ table th {
   color: darkgoldenrod;
 }
 
-footer {
-  /*font-style: italic;
-  font-size: 18px;
-  text-align: center;
-  display: grid;
-  height: 110px;*/
-  font-size: 1rem;
-  margin: 0px;
-}
-
-.footers {
-  font-size: 1rem;
-}
 
 .lorem {
   font-size: 2rem;
@@ -123,13 +115,9 @@ footer {
   color: #00ff73;
 }
 
-.body--background {
-  background: -webkit-gradient(linear, left top, left bottom, from(#bed45e), to(#5ed45e));
-  background: linear-gradient(to bottom, #bed45e, #5ed45e);
-}
-
 .footer--backgound {
-  background: linear-gradient(to top, brown, rgb(165, 136, 42));
+  background: -webkit-gradient(linear, left bottom, left top, from(brown), to(#a5882a));
+  background: linear-gradient(to top, brown, #a5882a);
 }
 
 .nav--height {
